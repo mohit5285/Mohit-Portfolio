@@ -1,0 +1,158 @@
+body{
+    background-color: rgba(14, 15, 15, 0.959);
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(202, 173, 45);
+    height:70px;
+    justify-content: center;
+    align-items: center;
+    gap:3vw;
+    font-size: 25px;
+    position: fixed;
+    top:0;
+    width:100vw;
+
+}
+.photo{
+    width:60%;
+}
+.links{
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.links:hover{
+    background-color: rgba(244, 255, 97, 0.808);
+    border-bottom: solid 5px rgb(70, 63, 0);
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    height:60px;
+}
+.photo , .navp{
+    border-radius: 40px;
+}
+.navp{
+    height:60px;
+    width:65px;
+}
+.linksnav{
+    color:black;
+    text-decoration: none;
+}
+#home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap:50px;
+    margin-top: 15vh;
+    color: aliceblue;
+
+}
+strong{
+    font-weight: bolder;
+}
+.profession
+{
+    color:rgb(208, 230, 11);
+    margin-top: 10px;
+    font-size: 3.5vw;
+}
+h1{
+    font-size: 4vw;
+    
+}
+.bgr{
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46vh;
+    background-color: rgb(17, 15, 15);
+}
+.aboutp{
+    width:80vw;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+h2{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: aliceblue;
+    font-size: 3vw;
+}
+.aboutpara{
+    color:aliceblue;
+    font-size: 2vw;
+    margin-bottom: 50px;
+    width:80vw;
+}
+#projects{
+    background-color:rgb(17, 15, 15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100vw;
+    gap:50px;
+
+}
+.pros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+    width:350px;
+    object-fit: cover;
+    border-radius: 30px;
+    color:aliceblue;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.primg{
+    height:300px;
+    width:350px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#contact{
+    background-color: rgb(17, 15, 15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sociobox{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+    gap:50px;
+}
+.socio{
+    width:40px;
+}
